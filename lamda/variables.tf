@@ -4,5 +4,9 @@ variable "bucket_name" {
 }
 variable "lambda_function_name" { 
     type = string 
-    description = "Lambda function name" 
+    description = "Lambda function name"
+}
+variable "Extra" { 
+    type = string 
+    description = "Lambda function name"
 }
