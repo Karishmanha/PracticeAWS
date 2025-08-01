@@ -15,5 +15,5 @@ def lambda_handler(event, context):
         s3.put_object(Bucket=bucket, Key=output_key, 
         Body=modified_content.encode('utf-8')) 
         print(f"File saved as: {output_key}") 
-        print("-------- Lambda execution completed successfully! --------") 
+        print("-------- Lambda execution completed successfully with Auto deploy! --------") 
     except: print(f"Error: {event}")
